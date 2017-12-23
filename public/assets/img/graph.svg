@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="1123px" viewBox="0 0 1600 1123" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Bottom CTA BG</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M0,426 C0,426 55.0426632,340.837243 138,323 C201.542663,309.337243 229.592731,373.775992 297,363 C376.592731,350.275992 353.691292,272.306765 432,236 C518.691292,195.806765 526.234828,276 627,276 C751.234828,276 789.263677,124.790493 882,98 C1014.26368,59.7904934 959.526134,273.159652 1077,184 C1154.52613,125.159652 1192.95262,-5.29625883 1272,7 C1407,28 1391.7043,138.385897 1480,257 C1557.7043,361.385897 1607,297 1607,297 L1607,1121 L1,1121 L0,426 Z" id="path-1"></path>
+        <path d="M0,425.812387 C0,425.812387 55.0426632,340.64963 138,322.812387 C201.542663,309.14963 229.592731,373.588379 297,362.812387 C376.592731,350.088379 353.691292,272.119152 432,235.812387 C518.691292,195.619152 526.234828,275.812387 627,275.812387 C751.234828,275.812387 789.263677,124.602881 882,97.8123873 C1014.26368,59.6028808 959.526134,272.972039 1077,183.812387 C1154.52613,124.972039 1192.95262,-5.48387149 1272,6.81238734 C1407,27.8123873 1391.7043,138.198285 1480,256.812387 C1557.7043,361.198285 1607,296.812387 1607,296.812387 L1607,1120.81239 L1,1120.81239 L0,425.812387 Z" id="path-3"></path>
+        <filter x="-1.8%" y="-1.7%" width="103.6%" height="105.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feMorphology radius="1.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="1.5" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="0" dy="10" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-64.2%" y="-62.5%" width="228.3%" height="228.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="25" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="V1" transform="translate(0.000000, -7272.000000)">
+            <g id="Sign-Up" transform="translate(-4.000000, 7072.000000)">
+                <g id="Bottom-CTA-BG" transform="translate(0.000000, 202.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Placeholder" fill-opacity="0.0299999993" fill="#06D6A0" xlink:href="#path-1"></use>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Placeholder">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-3"></use>
+                        <use stroke="#24D59F" stroke-width="3" xlink:href="#path-3"></use>
+                    </g>
+                    <g id="graph-dots" transform="translate(142.000000, 0.000000)" stroke="#06D6A0" stroke-width="3" fill="#F7FDFC">
+                        <circle id="Oval-4" cx="7.5" cy="322.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy" cx="153.5" cy="364.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-8" cx="252.5" cy="263.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-9" cx="446.5" cy="271.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-10" cx="641.5" cy="178.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-11" cx="836.5" cy="147.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-2" cx="348.5" cy="226.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-3" cx="543.5" cy="263.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-5" cx="934.5" cy="183.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-12" cx="1030.5" cy="69.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-13" cx="1229.5" cy="62.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-6" cx="1130.5" cy="7.5" r="7.5"></circle>
+                        <circle id="Oval-4-Copy-7" cx="1320.5" cy="233.5" r="7.5"></circle>
+                    </g>
+                    <g id="selector-dot" filter="url(#filter-6)" transform="translate(818.000000, 42.000000)">
+                        <circle id="Oval" fill="#06D6A0" opacity="0.25" cx="60.6315789" cy="60.6315789" r="16.4210526"></circle>
+                        <circle id="Oval" fill="#06D6A0" cx="60.6315789" cy="60.6315789" r="8.84210526"></circle>
+                        <circle id="Oval" stroke="#06D6A0" opacity="0.1" cx="60" cy="60" r="60"></circle>
+                        <circle id="Oval" stroke="#06D6A0" opacity="0.2" cx="60.6315789" cy="60.6315789" r="44.2105263"></circle>
+                        <circle id="Oval" stroke="#06D6A0" opacity="0.5" cx="60.6315789" cy="60.6315789" r="32.8421053"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,13 @@
+machine:
+  node:
+    version: 8.9.3
+
+test:
+  override:
+    - npm test
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - npm deploy

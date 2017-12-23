@@ -1,0 +1,11 @@
+/*
+ * Import the core styles first
+ */
+@import './modules/core/styles.css';
+
+/*
+ * Import the rest of the module
+ * styles
+ */
+@import './modules/app/styles.css';
+@import './modules/home/styles.css';
